@@ -7,7 +7,7 @@
 
 controller_labels:
   - name: test_1
-    organization: Summit25
+    organization: CaC
 
 
 ### JOB TEMPLATES ###
@@ -20,6 +20,6 @@ controller_templates:
     inventory: Summit25
     project: test_summit_cac
     playbook: playbooks/test_1.yml
-    organization: Summit25
+    organization: CaC
     labels:
       - test_1

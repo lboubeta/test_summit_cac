@@ -4,8 +4,9 @@
   hosts: all
   gather_facts: false
   tasks:
-    - name: Print Hello World 
+    - name: Print Hello World
       ansible.builtin.debug:
         msg: "Hello World"
-    - debug:
-        msg: "I am poorly written"
+    - name: Fixed task
+      ansible.builtin.debug:
+        msg: "I am well written"

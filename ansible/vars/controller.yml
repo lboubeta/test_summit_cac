@@ -6,34 +6,20 @@
 ### LABELS ###
 
 controller_labels:
-  - name: <user_label>
-    organization: <user_org>
+  - name: test_1
+    organization: Summit25
 
 
 ### JOB TEMPLATES ###
 
 controller_templates:
 
-  - name: <new_template_name>
-    description: <new_template_desc>
+  - name: [SC25] Test Play
+    description: Test template for Summit 25
     job_type: run
-    inventory: <user_inventory>
-    project: <user_project>
-    playbook: playbooks/<playbook_file>
-    credential: <user_cred>
-    organization: <user_org>
+    inventory: Summit25
+    project: test_summit_cac
+    playbook: playbooks/test_1.yml
+    organization: Summit25
     labels:
-      - <user_label>
-    survey_enabled: true
-    survey_spec:
-      name: <survey_name>
-      description: <survey_desc>
-      spec:
-        - question_name: <question_name>
-          question_description: <question_desc>
-          required: true
-          type: text
-          max: 50
-          variable: <var_to_store_answer>
-          default: <default_answer>
-          new_question: true
+      - test_1

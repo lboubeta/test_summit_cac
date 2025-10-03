@@ -7,6 +7,10 @@
 		{
 			"name": "ansible-devspaces-demo",
 			"path": "/projects/ansible-devspaces-demo"
+		},
+		{
+			"name": "test-summit-cac",
+			"path": "/projects/test-summit-cac"
 		}
 	]
 }

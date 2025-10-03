@@ -14,7 +14,7 @@ controller_labels:
 
 controller_templates:
 
-  - name: [SC25] Test Play
+  - name: "[SC25] Test Play"
     description: Test template for Summit 25
     job_type: run
     inventory: Summit25
